@@ -87,3 +87,29 @@ console.info('This is information')
 console.table([{
     a:1,b:2
 }])
+
+// ternary operator 
+let count =10
+
+let message = count<=10? "Hello" : "Hey"
+
+console.log(message)
+
+// == and ===
+
+console.log(1==1)
+console.log(1=='1') // == Only checks for value
+console.log(1==='1') // === Checks for value and datatype
+
+console.log(1!='1')
+console.log(1 !== '1')
+
+// Converting string into an array
+let message = 'Who is John Galt'.split(' ')
+console.log(message)
+
+// Converting an array into string
+let newMessage = message.join(' ')
+console.log(newMessage)
+
+
